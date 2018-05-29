@@ -13,7 +13,7 @@ print("Hello, {0}!".format(os.environ['DOMINO_PROJECT_OWNER']))
  
  
 # Define a helper function to generate a random number
-def random_number(start, stop):
+def random_stuff(start, stop):
     y = 0
     for i in (0,100):
         y = i + y
